@@ -1,6 +1,6 @@
 {
     "name": "nigel/wit_parser",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A custom Wit.ai parser for Laravel",
     "type": "library",
     "require": {
