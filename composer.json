@@ -1,0 +1,31 @@
+{
+    "name": "nigel/wit_parser",
+    "version": "1.0.0",
+    "description": "A custom Wit.ai parser for Laravel",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.9",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nigel\\WitParser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nigel\\WitParser\\WitParserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Nigel Jaure",
+            "email": "me@xuler.xyz"
+        }
+    ]
+}
